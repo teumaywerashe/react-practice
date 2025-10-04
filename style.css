@@ -1,0 +1,9 @@
+body {
+    background-color: grey;
+}
+
+#name,
+#email {
+    padding: 10px;
+    margin: 10px;
+}
