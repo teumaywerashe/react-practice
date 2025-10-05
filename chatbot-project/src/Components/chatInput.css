@@ -1,0 +1,33 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+.send-button {
+    background-color: rgb(25, 135, 4);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.chat-input {
+    align-items: baseline;
+    padding: 9px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    border-width: 1px;
+    flex-grow: 1;
+}
+
+.chat-input-container {
+    display: flex;
+    margin-bottom: 60px;
+}
